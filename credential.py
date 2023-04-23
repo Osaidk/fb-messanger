@@ -12,7 +12,7 @@ class Credential:
             lines = file.readlines()
             self.user = lines[0]
             self.password = lines[1]
-            # print(user + ', ' + password)
+            
 
 # c = Credential()
 # c.import_credentials()
