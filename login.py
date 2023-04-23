@@ -23,5 +23,6 @@ def run():
         print('An enxception occured.. Check the presence of the cookie and credentials file!')
     finally:
             if client.isLoggedIn():
+                print('Successfully Logged In!')
                 return client
             else: return None 
